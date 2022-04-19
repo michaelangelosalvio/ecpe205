@@ -21,5 +21,6 @@ public class Pet {
     }  
     public void setPet_Type(String newPet_Type){
         this.pet_type = newPet_Type;  
-    }    
+    }   
+     
 }
