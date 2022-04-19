@@ -4,6 +4,17 @@ public class Person {
     private String lastName, firstName, address;
     private int age;
 
+    public Person() {
+
+    };
+
+    public Person(String lastName, String firstName, String address, int age) {
+        this.lastName = lastName;
+        this.firstName = firstName;
+        this.address = address;
+        this.age = age;
+    }
+
     public String getLastName() {
         return lastName;
     }
