@@ -1,7 +1,7 @@
 package com.ecpe308.sample;
 
 public class Pet {
-    public String name, breed; //persian, labrador, golden retriever
+    public String name, breed, size; //persian, labrador, golden retriever
     public String pet_type;  //cat/dog
 
     public String getName(){
@@ -26,6 +26,14 @@ public class Pet {
     
     public void setPet_type (String pet_type){
         this.pet_type= pet_type;
+    }
+
+    public String getSize() {
+        return size;
+    }
+
+    public void setSize(String size) {
+        this.size = size;
     }
 }
 
